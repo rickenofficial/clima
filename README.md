@@ -9,6 +9,7 @@ This project is a web application that allows users to check the current weather
 
 
 
+![image](https://github.com/rickenofficial/clima/assets/70503436/608a3933-8c28-4221-aac6-d5631dcc91a7)
 
 
 
