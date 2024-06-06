@@ -22,4 +22,3 @@ This project is a web application that allows users to check the current weather
 
 
 
-# clima
