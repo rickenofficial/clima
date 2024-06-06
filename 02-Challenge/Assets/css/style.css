@@ -1,0 +1,167 @@
+* {
+    font-family: Dosis, Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(80, 145, 92), rgb(106, 183, 192));
+    align-items: center;
+    border-radius: 15px;
+    height: 75px;
+    
+}
+
+container {
+    display: flex;
+}
+
+search {
+    width: 15%;
+    min-width: 250px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#searchCityForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#searchCityBtn {
+    background: linear-gradient(to right, rgb(80, 145, 92), rgb(65, 153, 166));
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+#searchHistory {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: groove 3px;
+}
+
+
+current {
+    border: solid black 1px;
+    height: 200px;
+    padding-left: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    min-width: 500px;
+}
+
+forecast {
+    padding: 15px;
+    margin: 10px;
+}
+
+dataContainer {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.searchHistory {
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.historyBtn:hover {
+    background-color: rgb(80, 145, 92);
+    color: white;
+}
+
+#searchHistory {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: groove 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+#searchCityForm {
+    display: flex;
+    flex-direction: column;
+}
+.historyBtn {
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+#searchCityForm input {
+    font-size: 16px;
+    padding: 10px;
+}
+
+#searchCityForm button {
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    }
+
+#clearBtn {
+    margin-top: 20px;
+    background-color: rgb(248, 100, 1);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    }
+
+#clearBtn:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#currentWeather img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: -15px;
+}
+
+#currentWeather p {
+    font-size: 18px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#forecast div {
+    background: linear-gradient(to right, rgb(80, 145, 92), rgb(65, 153, 166));
+    color: white;
+    padding: 15px;
+    min-width: 200px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#forecast img {
+    height: 45px;
+    width: 45px;
+}

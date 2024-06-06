@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+
+        <container>
+            <search>
+                <h1>Search for a city:</h1>
+
+                <form id="citySearchForm">
+                    <input type="text" id="cityName" placeholder="City Name."></input>
+                    <button type="button" id="searchCityBtn">Search</button>
+                </form>
+
+                <searchHistory id="searchHistory">
+                </searchHistory>
+
+            </search>
+            <dataContainer>
+                <current id="currentWeather">
+                </current>
+
+                <forecast>
+                    <h1>5-Day Morning Forecast:</h1>
+                        <cards id="forecast">
+                        </cards>
+                </forecast>
+            </dataContainer>
+
+        </container>
+        
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+        <script>dayjs().format()</script>
+        <script src="./Assets/js/script.js"></script>
+    </body>
+
+</html>
